@@ -111,10 +111,13 @@ Hint: You can use .splice() for this
 
 */
 
-// function removeFlavorByName(){
-    // .splice()
-// }
-// removeFlavorByName(originalFlavors, "Vanilla");
+function removeFlavorByName(arr, type){
+    console.log(arr.indexOf(type));
+    console.log((arr.splice));
+}
+removeFlavorByName(originalFlavors, "Vanilla");
+
+console.log(originalFlavors);
 
 
 /* Task 6: With all of these changes going on, we don't want to lose track of the actual, original 31 flavors. Write a function called copy that makes a copy of the array. 
