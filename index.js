@@ -111,10 +111,10 @@ Hint: You can use .splice() for this
 
 */
 
-function removeFlavorByName(arr, flavor){
-
-}
-removeFlavorByName(originalFlavors, "Vanilla");
+// function removeFlavorByName(){
+    // .splice()
+// }
+// removeFlavorByName(originalFlavors, "Vanilla");
 
 
 /* Task 6: With all of these changes going on, we don't want to lose track of the actual, original 31 flavors. Write a function called copy that makes a copy of the array. 
@@ -146,11 +146,19 @@ DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem.
 
 hint - you can use the .includes method to help you solve this */
 
-function filterByWord(/*code here*/){
+let filteredArray = [];
 
-    /*code here*/
+function filterByWord(arr, type){
+    for(let i=0; i<arr.length; i++) {
+        if(arr[i].includes(type)) {
+            filteredArray.push(arr[i]) 
+        } //if statement
+    } //for loop
+} // function
 
-}
+filterByWord(originalFlavors, "Chocolate");
+
+console.log(filteredArray)
 
 
 
