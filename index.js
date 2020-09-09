@@ -92,9 +92,9 @@ Your function should accept:
 
 For example, getFlavorByIndex(originalFlavors, 2) would return "Black Walnut", assuming Rainbow Sherbert has been added successfully. */
 
-function getFlavorByIndex(arr, num){
-    originalFlavors.splice();
-    console.log(originalFlavors);
+function getFlavorByIndex(param4, param5){
+    param4[param5];
+    console.log(param4[param5])
 }
 getFlavorByIndex(originalFlavors, 2);
 
